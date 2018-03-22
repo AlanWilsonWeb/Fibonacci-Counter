@@ -9,11 +9,11 @@ while(count <= 20){
   count++;
 };
 
-outCount.shift()
+outCount.shift();
 
 function createList(outCount) {
 for (var f = 0; f < outCount.length; f++) {
-  var itemZ = outCount[f]
+  var itemZ = outCount[f];
   var listItem = document.createElement("LI");
   listItem.textContent = itemZ;
   listRes.appendChild(listItem);
